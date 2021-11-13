@@ -1,0 +1,55 @@
+<html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>PAQUETERIA</title>
+        <link rel="stylesheet" href="estilo real.css">
+    </head>
+    
+    <body>
+        <section class="form-login">
+        <h5>Producto con peso real</h5>
+        <h3>Seleccione el tipo de mercaderia</h3>
+        <select class="select" name="coin" id="producto">
+            <option class="opciones" value="Paqueteria">Paqueteria</option>
+            <option class="opciones" value="Mobiliario">Mobiliario</option>
+            <option class="opciones" value="Repuestos">Repuestos</option>
+            <option class="opciones" value="Art. electronicos">Art. electronicos</option>
+        </select>
+            <br>
+            <br>
+            <label class="titu" for="">Ingrese el peso real</label>
+            <input class="retiro1" type="text" name="retiros" id="Reti1">
+            <br>
+            <h4>Departamentos, Distancias</h4>
+            <h1>Guatemala, 10KM</h1>
+            <h1>Izabal, 300KM</h1>
+            <h1>Peten, 460KM</label>
+            <h1>Chiquimula, 178KM</h1>
+            <h1>Reltalhuleu, 200KM</h1>
+            <br>
+            <label class="titu" for="">Ingrese la distancia</label>
+            <input class="retiro1" type="text" name="retiros" id="kms">
+            <br>
+            <input class="clik" type="button" value="validar" onclick="validar();">
+       
+</form>
+
+<script>
+    var peso=2.5;
+    var distancia=0.13;
+
+    function validar() {
+        var real= parseInt(document.getElementById("Reti1").value);
+        var selec=document.getElementById("producto").value;
+        var km=parseInt(document.getElementById("kms").value)
+        total=((real*peso)+(km*distancia)).toFixed(2);
+        alert ("Su total es de: Q"+total+ ", por la mercaderia de: "+selec+ ", por una distancia de: "+km+"KM");
+    }
+
+</script>
+
+    </body>
+    
+</html>
+</html>

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        font-family: Arial;
+        background-image: url(12.jpg);
+    }
+    
+    .form-login{
+        width: 450px;
+        height: 660px;
+        background: #2E4053;
+        margin: auto;
+        margin-top: 180px;
+        box-shadow: 7px 13px 37px #000;
+        padding: 20px 30px;
+        border-top: 5px solid #017bab;
+        color: white;
+    }
+    
+    .form-login h5 {
+        margin-top: -5px;
+        text-align: center;
+        height: 81px;
+        border-bottom: 2px solid;
+        font-size: 35px;
+        color: white;
+    }
+    
+    .form-login select {
+        margin-top: 10;
+        text-align: center;
+        width: 200px;
+        min-height: 35px;
+        background: #85929E;
+        border-radius: 3px;
+        border:2px ;
+        font-size: 20px;
+        color: black;
+        outline: none;
+        padding: 0 10px;
+        width: 100%;
+        cursor: pointer;
+        appearance: none;
+        
+    }
+    
+    .clik {
+        margin-top: 10;
+        width: 80%;
+        height: 50px;
+        background: #017bab;
+        border: none;
+        color: white;
+        margin-left: 35;
+        font-size: 20px;
+    
+    }
+    
+    .form-login h4 {
+        margin-top: 1;
+        text-align: center;
+        height: 20px;
+        font-size: 25px;
+        height: 32px;
+        border-bottom: 1px solid;
+        color: white;
+    }
+
+    .titu {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        font-size: 20px;
+        margin-left: -10px;
+        font-weight: bold;
+     }
+
+     .retiro1 {
+        width: 23%;
+        height: 1px;
+        border: 1px solid #017bab ;
+        margin-bottom: 15px;
+        padding: 15px 20px;
+        background: #85929E ;
+        font-size: 25px;
+        font-weight: bold;
+        outline: none; 
+    }
+
+        .form-login h3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            font-size: 20px;
+            margin-top: 20;
+            margin-left: 50px;
+            font-weight: bold;
+         }
+
+    .form-login h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+     margin-left: 10;
+     text-align: center;
+    }
+    

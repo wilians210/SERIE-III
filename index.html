@@ -1,0 +1,50 @@
+<html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>PAQUETERIA</title>
+        <link rel="stylesheet" href="estilo index.css">
+    </head>
+    
+    <body>
+        <section class="form-login">
+        <h5>Paqueteria p&p</h5>
+<br>
+<br>
+<form action="">
+    <h4>Seleccione el tipo de Peso</h4>
+    <select class="select" name="coin" id="coin">
+        <option class="opciones" value="1">Peso real</option>
+        <option class="opciones" value="2">Peso volumetrico</option>
+        <option class="opciones" value="3">Documentos</option>
+        <input class="clik" type="button" value="validar" onclick="validar();">
+    </select>
+
+</form>
+
+<script>
+
+
+  function validar (){
+    var tipodemoneda=document.getElementById("coin");
+
+    if (tipodemoneda.value==1) {
+        location="real.html";
+    }
+
+    if (tipodemoneda.value==2) {
+        location="volumetrico.html";
+    }
+
+    if (tipodemoneda.value==3) {
+        location="Documentos.html";
+    }
+}
+
+
+</script>
+
+    </body>
+    
+</html>
+</html>
