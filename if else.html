@@ -1,0 +1,34 @@
+<html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>PAQUETERIA</title>
+    </head>
+    
+    <body>
+        <h1>SENTECIA IF ELSE</h1>
+
+        <label for="">Averigue si es mayor o menor de edad</label>
+        <br>
+        <BR>
+        <label class="titu" for="">Ingrese su edad</label>
+        <input class="retiro1" type="text" name="retiros" id="eda">
+        <input class="clik" type="button" value="Averiguar!" onclick="validar();">
+
+<script>
+
+    function validar() {
+    var edad=parseInt(document.getElementById("eda").value);
+
+    if (edad<18) {
+        alert("usted es menor de edad")
+    } else {
+        alert("usted es mayor de edad")
+    }
+}
+</script>
+
+    </body>
+    
+</html>
+</html>
